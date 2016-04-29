@@ -77,11 +77,11 @@ touch Dockerfile
 Open the `Dockerfile` in your favorite text editor
 
 The first thing we need to do is define from what image we want to build from.
-Here we will use the latest LTS (long term support) version `argon` of `node`
+Here we will use the latest version `latest` of `node`
 available from the [Docker Hub](https://hub.docker.com/):
 
 ```docker
-FROM node:argon
+FROM node:latest
 ```
 
 Next we create a directory to hold the application code inside the image, this
